@@ -1,3 +1,4 @@
+import AddToCart from './AddToCart';
 import './App.css';
 import Product from './Product';
 
@@ -9,6 +10,11 @@ function App() {
       <Product name="iPhone" price={999} />
       <Product name="Headphones" price={150} />
       <Product name="Mouse" price={50} />
+      <hr />
+      <hr />
+      <hr />
+      <AddToCart />
+
     </div>
   );
 }
